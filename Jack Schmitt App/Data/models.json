@@ -1,0 +1,120 @@
+[
+    {
+        "id": 0,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "trim": "LT",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"silverado-1"
+    },
+    {
+        "id": 1,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Equinox",
+        "trim": "LT",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"equinox-1"
+
+    },
+    {
+        "id": 2,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Colorado",
+        "trim": "LT",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"colorado-1"
+
+    },
+    {
+        "id": 3,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "trim": "LT",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"malibu-1"
+
+    },
+    {
+        "id": 4,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Trax",
+        "trim": "LTZ",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"trax-1"
+
+    },
+    {
+        "id": 5,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Tahoe",
+        "trim": "LTZ",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"tahoe-1"
+
+    },
+    {
+        "id": 6,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Traverse",
+        "trim": "LT",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"traverse-1"
+
+    },
+    {
+        "id": 7,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Blazer",
+        "trim": "LT",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"blazer-1"
+
+    },
+    {
+        "id": 8,
+        "year":"2022",
+        "make": "Chevrolet",
+        "model": "Trailblazer",
+        "trim": "LT",
+        "msrp": "$43,211",
+        "mpgs": "29 MPG",
+        "seating": "4 Passenges",
+        "description": "Cool Truck!",
+        "pic":"trailblazer-1"
+
+    }
+
+
+]

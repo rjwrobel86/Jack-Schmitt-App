@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571C625E2846168B00A975E8 /* FinanceLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C625D2846168A00A975E8 /* FinanceLink.swift */; };
+		571C62682846276000A975E8 /* DiscountsLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C62672846276000A975E8 /* DiscountsLink.swift */; };
+		57476BC52848661700878F07 /* models.json in Resources */ = {isa = PBXBuildFile; fileRef = 57476BC42848661700878F07 /* models.json */; };
+		57476BC7284866EC00878F07 /* ModelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57476BC6284866EC00878F07 /* ModelModel.swift */; };
+		57476BD428487C9200878F07 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57476BD328487C9200878F07 /* MapView.swift */; };
+		5757B1CD2847CD9200196CF8 /* VDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1CC2847CD9200196CF8 /* VDPMain.swift */; };
+		5757B1D02847CE6000196CF8 /* VehicleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1CE2847CE6000196CF8 /* VehicleRow.swift */; };
+		5757B1D12847CE6000196CF8 /* VehiclesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1CF2847CE6000196CF8 /* VehiclesList.swift */; };
+		578141032840277800D55665 /* Jack_Schmitt_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578141022840277800D55665 /* Jack_Schmitt_AppApp.swift */; };
+		578141052840277800D55665 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578141042840277800D55665 /* ContentView.swift */; };
+		578141072840277900D55665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578141062840277900D55665 /* Assets.xcassets */; };
+		5781410A2840277900D55665 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578141092840277900D55665 /* Preview Assets.xcassets */; };
+		57814111284027AC00D55665 /* HandD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814110284027AC00D55665 /* HandD.swift */; };
+		57814113284027BA00D55665 /* Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814112284027BA00D55665 /* Hours.swift */; };
+		57814115284027BE00D55665 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814114284027BE00D55665 /* Directions.swift */; };
+		57814118284027DF00D55665 /* Specials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814117284027DF00D55665 /* Specials.swift */; };
+		5781411A284027E200D55665 /* ComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814119284027E200D55665 /* ComingSoon.swift */; };
+		5781411C284027EA00D55665 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781411B284027EA00D55665 /* ContactUs.swift */; };
+		57814120284029B200D55665 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781411F284029B200D55665 /* DataModel.swift */; };
+		57814122284029BD00D55665 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814121284029BD00D55665 /* VehicleModel.swift */; };
+		5781412C28402AE200D55665 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5781412B28402AE200D55665 /* Launch Screen.storyboard */; };
+		5781413128402C0200D55665 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781413028402C0200D55665 /* Menu.swift */; };
+		578315BB28498DE4002518CC /* DataModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578315BA28498DE4002518CC /* DataModel2.swift */; };
+		578315BD28498E6E002518CC /* ModelsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578315BC28498E6E002518CC /* ModelsRow.swift */; };
+		578315BF2849906A002518CC /* ModelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578315BE2849906A002518CC /* ModelsList.swift */; };
+		578315C1284990B3002518CC /* MDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578315C0284990B3002518CC /* MDPMain.swift */; };
+		57DB3ACB2847F4DB00B9A0F7 /* vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		571C625D2846168A00A975E8 /* FinanceLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceLink.swift; sourceTree = "<group>"; };
+		571C62672846276000A975E8 /* DiscountsLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountsLink.swift; sourceTree = "<group>"; };
+		57476BC42848661700878F07 /* models.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models.json; sourceTree = "<group>"; };
+		57476BC6284866EC00878F07 /* ModelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelModel.swift; sourceTree = "<group>"; };
+		57476BD328487C9200878F07 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5757B1CC2847CD9200196CF8 /* VDPMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDPMain.swift; sourceTree = "<group>"; };
+		5757B1CE2847CE6000196CF8 /* VehicleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleRow.swift; sourceTree = "<group>"; };
+		5757B1CF2847CE6000196CF8 /* VehiclesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehiclesList.swift; sourceTree = "<group>"; };
+		578140FF2840277800D55665 /* Jack Schmitt App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Schmitt App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		578141022840277800D55665 /* Jack_Schmitt_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_Schmitt_AppApp.swift; sourceTree = "<group>"; };
+		578141042840277800D55665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		578141062840277900D55665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		578141092840277900D55665 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57814110284027AC00D55665 /* HandD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandD.swift; sourceTree = "<group>"; };
+		57814112284027BA00D55665 /* Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hours.swift; sourceTree = "<group>"; };
+		57814114284027BE00D55665 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		57814117284027DF00D55665 /* Specials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specials.swift; sourceTree = "<group>"; };
+		57814119284027E200D55665 /* ComingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoon.swift; sourceTree = "<group>"; };
+		5781411B284027EA00D55665 /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
+		5781411F284029B200D55665 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		57814121284029BD00D55665 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
+		5781412B28402AE200D55665 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5781413028402C0200D55665 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		578315BA28498DE4002518CC /* DataModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel2.swift; sourceTree = "<group>"; };
+		578315BC28498E6E002518CC /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsRow.swift; sourceTree = "<group>"; };
+		578315BE2849906A002518CC /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsList.swift; sourceTree = "<group>"; };
+		578315C0284990B3002518CC /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMain.swift; sourceTree = "<group>"; };
+		57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578140FC2840277800D55665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57476BCE2848784100878F07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				578315BC28498E6E002518CC /* ModelsRow.swift */,
+				578315BE2849906A002518CC /* ModelsList.swift */,
+				578315C0284990B3002518CC /* MDPMain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5757B1D22847CEF100196CF8 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		5769F159284880E9007E54C8 /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				571C625D2846168A00A975E8 /* FinanceLink.swift */,
+				571C62672846276000A975E8 /* DiscountsLink.swift */,
+			);
+			path = Links;
+			sourceTree = "<group>";
+		};
+		5769F15A28488101007E54C8 /* Tertiary */ = {
+			isa = PBXGroup;
+			children = (
+				57814119284027E200D55665 /* ComingSoon.swift */,
+				5781411B284027EA00D55665 /* ContactUs.swift */,
+			);
+			path = Tertiary;
+			sourceTree = "<group>";
+		};
+		578140F62840277800D55665 = {
+			isa = PBXGroup;
+			children = (
+				578141012840277800D55665 /* Jack Schmitt App */,
+				578141002840277800D55665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		578141002840277800D55665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578140FF2840277800D55665 /* Jack Schmitt App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578141012840277800D55665 /* Jack Schmitt App */ = {
+			isa = PBXGroup;
+			children = (
+				5781412F28402BE800D55665 /* Main */,
+				5781411D2840280C00D55665 /* Static */,
+				5757B1D22847CEF100196CF8 /* Temp */,
+				5781412E28402BD800D55665 /* Dynamic */,
+				5781412D28402BC600D55665 /* Data */,
+				578141062840277900D55665 /* Assets.xcassets */,
+				578141082840277900D55665 /* Preview Content */,
+			);
+			path = "Jack Schmitt App";
+			sourceTree = "<group>";
+		};
+		578141082840277900D55665 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				578141092840277900D55665 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57814116284027D000D55665 /* HandD */ = {
+			isa = PBXGroup;
+			children = (
+				57814110284027AC00D55665 /* HandD.swift */,
+				57814112284027BA00D55665 /* Hours.swift */,
+				57476BD328487C9200878F07 /* MapView.swift */,
+				57814114284027BE00D55665 /* Directions.swift */,
+			);
+			path = HandD;
+			sourceTree = "<group>";
+		};
+		5781411D2840280C00D55665 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				5769F15A28488101007E54C8 /* Tertiary */,
+				57814116284027D000D55665 /* HandD */,
+				5769F159284880E9007E54C8 /* Links */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		5781412D28402BC600D55665 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5781411F284029B200D55665 /* DataModel.swift */,
+				578315BA28498DE4002518CC /* DataModel2.swift */,
+				57814121284029BD00D55665 /* VehicleModel.swift */,
+				57476BC6284866EC00878F07 /* ModelModel.swift */,
+				57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */,
+				57476BC42848661700878F07 /* models.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5781412E28402BD800D55665 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				57476BCE2848784100878F07 /* Models */,
+				57814117284027DF00D55665 /* Specials.swift */,
+				5757B1CC2847CD9200196CF8 /* VDPMain.swift */,
+				5757B1CF2847CE6000196CF8 /* VehiclesList.swift */,
+				5757B1CE2847CE6000196CF8 /* VehicleRow.swift */,
+			);
+			name = Dynamic;
+			path = Static/HandD/Dynamic;
+			sourceTree = "<group>";
+		};
+		5781412F28402BE800D55665 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5781413228402CB600D55665 /* Primary */,
+				5781412B28402AE200D55665 /* Launch Screen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5781413228402CB600D55665 /* Primary */ = {
+			isa = PBXGroup;
+			children = (
+				578141022840277800D55665 /* Jack_Schmitt_AppApp.swift */,
+				5781413028402C0200D55665 /* Menu.swift */,
+				578141042840277800D55665 /* ContentView.swift */,
+			);
+			path = Primary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578140FE2840277800D55665 /* Jack Schmitt App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5781410D2840277900D55665 /* Build configuration list for PBXNativeTarget "Jack Schmitt App" */;
+			buildPhases = (
+				578140FB2840277800D55665 /* Sources */,
+				578140FC2840277800D55665 /* Frameworks */,
+				578140FD2840277800D55665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jack Schmitt App";
+			productName = "Jack Schmitt App";
+			productReference = 578140FF2840277800D55665 /* Jack Schmitt App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578140F72840277800D55665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = RJW;
+				TargetAttributes = {
+					578140FE2840277800D55665 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 578140FA2840277800D55665 /* Build configuration list for PBXProject "Jack Schmitt App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 578140F62840277800D55665;
+			productRefGroup = 578141002840277800D55665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578140FE2840277800D55665 /* Jack Schmitt App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578140FD2840277800D55665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5781410A2840277900D55665 /* Preview Assets.xcassets in Resources */,
+				5781412C28402AE200D55665 /* Launch Screen.storyboard in Resources */,
+				57DB3ACB2847F4DB00B9A0F7 /* vehicles.json in Resources */,
+				57476BC52848661700878F07 /* models.json in Resources */,
+				578141072840277900D55665 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578140FB2840277800D55665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57476BD428487C9200878F07 /* MapView.swift in Sources */,
+				5781411A284027E200D55665 /* ComingSoon.swift in Sources */,
+				578315C1284990B3002518CC /* MDPMain.swift in Sources */,
+				5781413128402C0200D55665 /* Menu.swift in Sources */,
+				578141052840277800D55665 /* ContentView.swift in Sources */,
+				578141032840277800D55665 /* Jack_Schmitt_AppApp.swift in Sources */,
+				57814111284027AC00D55665 /* HandD.swift in Sources */,
+				578315BD28498E6E002518CC /* ModelsRow.swift in Sources */,
+				57814118284027DF00D55665 /* Specials.swift in Sources */,
+				5757B1D12847CE6000196CF8 /* VehiclesList.swift in Sources */,
+				57814113284027BA00D55665 /* Hours.swift in Sources */,
+				5757B1D02847CE6000196CF8 /* VehicleRow.swift in Sources */,
+				578315BB28498DE4002518CC /* DataModel2.swift in Sources */,
+				57476BC7284866EC00878F07 /* ModelModel.swift in Sources */,
+				571C62682846276000A975E8 /* DiscountsLink.swift in Sources */,
+				57814122284029BD00D55665 /* VehicleModel.swift in Sources */,
+				578315BF2849906A002518CC /* ModelsList.swift in Sources */,
+				571C625E2846168B00A975E8 /* FinanceLink.swift in Sources */,
+				5781411C284027EA00D55665 /* ContactUs.swift in Sources */,
+				57814115284027BE00D55665 /* Directions.swift in Sources */,
+				57814120284029B200D55665 /* DataModel.swift in Sources */,
+				5757B1CD2847CD9200196CF8 /* VDPMain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5781410B2840277900D55665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5781410C2840277900D55665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5781410E2840277900D55665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt App/Preview Content\"";
+				DEVELOPMENT_TEAM = H3U8XDXNHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5781410F2840277900D55665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt App/Preview Content\"";
+				DEVELOPMENT_TEAM = H3U8XDXNHS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578140FA2840277800D55665 /* Build configuration list for PBXProject "Jack Schmitt App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781410B2840277900D55665 /* Debug */,
+				5781410C2840277900D55665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5781410D2840277900D55665 /* Build configuration list for PBXNativeTarget "Jack Schmitt App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5781410E2840277900D55665 /* Debug */,
+				5781410F2840277900D55665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 578140F72840277800D55665 /* Project object */;
+}
