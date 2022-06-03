@@ -47,9 +47,9 @@
 		57476BC42848661700878F07 /* models.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models.json; sourceTree = "<group>"; };
 		57476BC6284866EC00878F07 /* ModelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelModel.swift; sourceTree = "<group>"; };
 		57476BD328487C9200878F07 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		5757B1CC2847CD9200196CF8 /* VDPMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDPMain.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VDPMain.swift"; sourceTree = "<absolute>"; };
-		5757B1CE2847CE6000196CF8 /* VehicleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehicleRow.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VehicleRow.swift"; sourceTree = "<absolute>"; };
-		5757B1CF2847CE6000196CF8 /* VehiclesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehiclesList.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VehiclesList.swift"; sourceTree = "<absolute>"; };
+		5757B1CC2847CD9200196CF8 /* VDPMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDPMain.swift; path = "/Users/robertwrobel/Code/Code2/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VDPMain.swift"; sourceTree = "<absolute>"; };
+		5757B1CE2847CE6000196CF8 /* VehicleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehicleRow.swift; path = "/Users/robertwrobel/Code/Code2/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VehicleRow.swift"; sourceTree = "<absolute>"; };
+		5757B1CF2847CE6000196CF8 /* VehiclesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehiclesList.swift; path = "/Users/robertwrobel/Code/Code2/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VehiclesList.swift"; sourceTree = "<absolute>"; };
 		578140FF2840277800D55665 /* Jack Schmitt App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Schmitt App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578141022840277800D55665 /* Jack_Schmitt_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Jack_Schmitt_AppApp.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Main/Jack_Schmitt_AppApp.swift"; sourceTree = "<absolute>"; };
 		578141042840277800D55665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Main/ContentView.swift"; sourceTree = "<absolute>"; };
@@ -66,9 +66,9 @@
 		5781412B28402AE200D55665 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5781413028402C0200D55665 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Main/Menu.swift"; sourceTree = "<absolute>"; };
 		578315BA28498DE4002518CC /* DataModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel2.swift; sourceTree = "<group>"; };
-		578315BC28498E6E002518CC /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelsRow.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Models/ModelsRow.swift"; sourceTree = "<absolute>"; };
-		578315BE2849906A002518CC /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelsList.swift; path = Models/ModelsList.swift; sourceTree = "<group>"; };
-		578315C0284990B3002518CC /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MDPMain.swift; path = Models/MDPMain.swift; sourceTree = "<group>"; };
+		578315BC28498E6E002518CC /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelsRow.swift; path = "/Users/robertwrobel/Code/Code2/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Models/ModelsRow.swift"; sourceTree = "<absolute>"; };
+		578315BE2849906A002518CC /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelsList.swift; path = "../Jack Schmitt App/Dynamic/Models/ModelsList.swift"; sourceTree = "<group>"; };
+		578315C0284990B3002518CC /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MDPMain.swift; path = "../Jack Schmitt App/Dynamic/Models/MDPMain.swift"; sourceTree = "<group>"; };
 		57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
 		A94B0E23284A710D0031714C /* ReviewLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLink.swift; sourceTree = "<group>"; };
 		A94B0E25284A71DE0031714C /* EquinoxLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquinoxLink.swift; sourceTree = "<group>"; };
@@ -88,6 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5767FF65284AD35300D32B0E /* ModelGroup */ = {
+			isa = PBXGroup;
+			children = (
+				578315BC28498E6E002518CC /* ModelsRow.swift */,
+				578315BE2849906A002518CC /* ModelsList.swift */,
+				578315C0284990B3002518CC /* MDPMain.swift */,
+			);
+			path = ModelGroup;
+			sourceTree = "<group>";
+		};
+		5767FF66284AD37600D32B0E /* VehicleGroup */ = {
+			isa = PBXGroup;
+			children = (
+				5757B1CC2847CD9200196CF8 /* VDPMain.swift */,
+				5757B1CF2847CE6000196CF8 /* VehiclesList.swift */,
+				5757B1CE2847CE6000196CF8 /* VehicleRow.swift */,
+			);
+			path = VehicleGroup;
+			sourceTree = "<group>";
+		};
 		5769F159284880E9007E54C8 /* Links */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,16 +205,12 @@
 		5781412E28402BD800D55665 /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
-				5757B1CC2847CD9200196CF8 /* VDPMain.swift */,
-				5757B1CF2847CE6000196CF8 /* VehiclesList.swift */,
-				5757B1CE2847CE6000196CF8 /* VehicleRow.swift */,
-				578315BC28498E6E002518CC /* ModelsRow.swift */,
-				578315BE2849906A002518CC /* ModelsList.swift */,
-				578315C0284990B3002518CC /* MDPMain.swift */,
+				5767FF66284AD37600D32B0E /* VehicleGroup */,
+				5767FF65284AD35300D32B0E /* ModelGroup */,
 				57814117284027DF00D55665 /* Specials.swift */,
 			);
 			name = Dynamic;
-			path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Dynamic";
+			path = "/Users/robertwrobel/Code/Code2/Jack-Schmitt-App/Jack Schmitt App/Dynamic";
 			sourceTree = "<absolute>";
 		};
 		5781412F28402BE800D55665 /* Main */ = {
