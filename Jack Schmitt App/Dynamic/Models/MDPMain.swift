@@ -15,7 +15,6 @@ struct MDPMain: View {
     var body: some View {
         ScrollView {
         VStack {
-        
         HStack {
             Text(model.year).font(.largeTitle)
             Text(model.make).font(.largeTitle)

@@ -21,19 +21,16 @@ struct Specials: View {
                     .padding()
                     .scaledToFit()
                 
-                Image("equinoxdeals")
-                        .resizable()
-                        .frame(width: 350.0, height: 175)
-                        .scaledToFit()
-                        .padding()
-
+                
+                ReviewLink()
+                EquinoxLink()
                 Image("financehero")
                         .resizable()
                         .frame(width: 350.0, height: 175)
                         .scaledToFit()
                         .padding()
 
-                Image("traxdeals")
+                Image("weneedyourcar")
                         .resizable()
                         .frame(width: 350.0, height: 175)
                         .scaledToFit()
@@ -45,9 +42,7 @@ struct Specials: View {
                         .scaledToFit()
                         .padding()
 
-
-                
-                Image("weneedyourcar")
+                Image("cpo")
                         .resizable()
                         .frame(width: 350.0, height: 175)
                         .scaledToFit()

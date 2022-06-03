@@ -18,6 +18,7 @@ struct Menu: View {
                 NavigationLink(destination: HandD()) { Text("Hours and Directions") }
                 NavigationLink(destination: ContactUs()) { Text("Contact Us") }
                 NavigationLink(destination: ComingSoon()) { Text("Coming Soon") }
+                NavigationLink(destination: ReviewLink()) { Text("Review Us On Google") }
                 }.navigationTitle("Main Menu")
                 .foregroundColor(.blue)
         }

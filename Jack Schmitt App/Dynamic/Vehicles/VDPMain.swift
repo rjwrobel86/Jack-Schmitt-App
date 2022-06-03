@@ -59,6 +59,7 @@ struct VDPMain: View {
             Divider()
             
             Text("Image Gallary")
+            ImageGrid()
             
             
             Divider()
