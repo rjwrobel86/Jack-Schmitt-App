@@ -17,7 +17,7 @@ struct ModelsList: View {
             } label: {
                 ModelsRow(model: model)
             }
-        }.navigationTitle("On Sale")
+        }.navigationTitle("New Models")
             .refreshable {
     }
 }

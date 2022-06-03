@@ -18,6 +18,12 @@ struct Model: Codable, Hashable, Identifiable {
     var msrp: String
     var seating: String
     var description: String
-    var pic: String
+    var p1: String
+    var p2: String
+    var p3: String
+    var p4: String
+    var p5: String
+    var icon: String
+    var hero: String
 
 }

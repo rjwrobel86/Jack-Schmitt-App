@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ComingSoon: View {
     var body: some View {
-        Image("ASB")
+        Image("newlogo").resizable().scaledToFit()
         Text("Coming 'Soon'").font(.largeTitle)
         Text("Book an Appointment")
         Text("Apply for a Loan")

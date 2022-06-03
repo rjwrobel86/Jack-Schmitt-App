@@ -13,19 +13,34 @@ struct ContactUs: View {
             .font(.largeTitle)
         VStack {
         Image("")
-        Link("Visit Us Online", destination: URL(string: "https://www.schmittchevrolet.com")!)
+            
+            ZStack {
+                Rectangle()
+                    .frame(width:250,height:50)
+                Link("Visit Us Online", destination: URL(string: "https://www.schmittchevrolet.com")!)
+                    .padding(5.0)
+                    .font(.title)
+                }
+        }
+            ZStack {
+                Rectangle()
+                    .frame(width:250,height:50)
+                Link("Call Us", destination: URL(string: "tel:16182594900")!)
+                    .padding(5.0)
+                    .font(.title)
+            }
+                
+        ZStack {
+            Rectangle()
+                .frame(width:250,height:50)
+            Link("Text Us", destination: URL(string: "sms:16189794773")!)
             .padding(5.0)
             .font(.title)
-        
-        Link("Call Us", destination: URL(string: "tel:16182594900")!)
-            .padding(5.0)
-            .font(.title)
-        
-        Link("Email Us", destination: URL(string: "mailto:jackschmittwoodriver@gmail.com")!)
-            .padding(5.0)
-            .font(.title)
-        
-        Link("Text Us", destination: URL(string: "sms:16189794773")!)
+        }
+        ZStack {
+            Rectangle()
+                .frame(width:250,height:50)
+            Link("Email Us", destination: URL(string: "mailto:jackschmittwoodriver@gmail.com")!)
             .padding(5.0)
             .font(.title)
         }

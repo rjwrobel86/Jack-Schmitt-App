@@ -10,7 +10,7 @@ import SwiftUI
 
 struct DiscountsLink: View {
     var body: some View {
-        Link(destination: URL(string: "https://www.schmittchevrolet.com/Discounts")!) {
+        Link(destination: URL(string: "https://www.schmittchevrolet.com/VehicleSearchResults?")!) {
             Image("extradiscounts")
                 .resizable()
                 .scaledToFit()

@@ -13,17 +13,33 @@ struct MDPMain: View {
     var model: Model
     
     var body: some View {
-        Image(model.pic)
+        ScrollView {
+        VStack {
+        
         HStack {
-        Text(model.make)
-        Text(model.model)
-        Text(model.trim)
+            Text(model.year).font(.largeTitle)
+            Text(model.make).font(.largeTitle)
+            Text(model.model).font(.largeTitle)
+        }
+            Image(model.hero)
+                .resizable().scaledToFit()
+            Image(model.p1)
+                .resizable().scaledToFit()
+            Image(model.p2)
+                .resizable().scaledToFit()
+            Image(model.p3)
+                .resizable().scaledToFit()
+            Image(model.p4)
+                .resizable().scaledToFit()
+            Image(model.p5)
+                .resizable().scaledToFit()
+        }
         }
     }
 }
 
 struct MDPMain_Previews: PreviewProvider {
     static var previews: some View {
-        MDPMain(model:model[0])
+        MDPMain(model:model[1])
     }
 }

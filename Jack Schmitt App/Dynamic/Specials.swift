@@ -45,11 +45,6 @@ struct Specials: View {
                         .scaledToFit()
                         .padding()
 
-                Image("wecangetit")
-                        .resizable()
-                        .frame(width: 350.0, height: 175)
-                        .scaledToFit()
-                        .padding()
 
                 
                 Image("weneedyourcar")

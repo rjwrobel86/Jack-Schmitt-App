@@ -11,7 +11,7 @@ struct ModelsRow: View {
 
     var body: some View {
         HStack {
-            Image(model.pic)
+            Image(model.icon)
                 .resizable()
                 .frame(width: 100.0, height: 50)
                 .padding()

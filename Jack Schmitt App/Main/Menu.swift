@@ -14,17 +14,15 @@ struct Menu: View {
             List {
             NavigationLink(destination: VehiclesList()) { Text("Browse Vehicles") }
                 NavigationLink(destination: Specials()) { Text("Weekly Specials") }
-                NavigationLink(destination: ContactUs()) { Text("Contact Us") }
-                NavigationLink(destination: HandD()) { Text("Hours and Directions") }
                 NavigationLink(destination: ModelsList()) { Text("Model Research") }
+                NavigationLink(destination: HandD()) { Text("Hours and Directions") }
+                NavigationLink(destination: ContactUs()) { Text("Contact Us") }
                 NavigationLink(destination: ComingSoon()) { Text("Coming Soon") }
                 }.navigationTitle("Main Menu")
                 .foregroundColor(.blue)
-                
-        }
-      
         }
     }
+}
 
 struct Menu_Previews: PreviewProvider {
     static var previews: some View {
