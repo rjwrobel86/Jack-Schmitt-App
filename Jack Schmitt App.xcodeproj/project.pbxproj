@@ -32,7 +32,7 @@
 		578315BF2849906A002518CC /* ModelsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578315BE2849906A002518CC /* ModelsList.swift */; };
 		578315C1284990B3002518CC /* MDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578315C0284990B3002518CC /* MDPMain.swift */; };
 		57DB3ACB2847F4DB00B9A0F7 /* vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */; };
-		A91267F4285EAB0B00CABEDF /* Jack-Schmitt-App-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info.plist */; };
+		A91267F4285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist */; };
 		A9416180285DD7C80051A71E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A941617F285DD7C80051A71E /* FirebaseAnalytics */; };
 		A9416182285DD7C80051A71E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A9416181285DD7C80051A71E /* FirebaseAnalyticsOnDeviceConversion */; };
 		A9416184285DD7C80051A71E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9416183285DD7C80051A71E /* FirebaseAnalyticsSwift */; };
@@ -88,7 +88,7 @@
 		578315BE2849906A002518CC /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsList.swift; sourceTree = "<group>"; };
 		578315C0284990B3002518CC /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMain.swift; sourceTree = "<group>"; };
 		57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
-		A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jack-Schmitt-App-Info.plist"; sourceTree = "<group>"; };
+		A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jack-Schmitt-App-Info2.plist"; sourceTree = "<group>"; };
 		A94161AA285E9CB40051A71E /* Jack_Schmitt_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack_Schmitt_AppApp.swift; sourceTree = "<group>"; };
 		A94161AC285E9D6E0051A71E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A94161AE285E9DC10051A71E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 			children = (
 				A94161AA285E9CB40051A71E /* Jack_Schmitt_AppApp.swift */,
 				A94161AC285E9D6E0051A71E /* ContentView.swift */,
-				A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info.plist */,
+				A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist */,
 				5781412B28402AE200D55665 /* Launch Screen.storyboard */,
 				A94161AE285E9DC10051A71E /* GoogleService-Info.plist */,
 				5781412F28402BE800D55665 /* Main */,
@@ -354,7 +354,7 @@
 				5781412C28402AE200D55665 /* Launch Screen.storyboard in Resources */,
 				57DB3ACB2847F4DB00B9A0F7 /* vehicles.json in Resources */,
 				57476BC52848661700878F07 /* models.json in Resources */,
-				A91267F4285EAB0B00CABEDF /* Jack-Schmitt-App-Info.plist in Resources */,
+				A91267F4285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist in Resources */,
 				578141072840277900D55665 /* Assets.xcassets in Resources */,
 				A94161AF285E9DC10051A71E /* GoogleService-Info.plist in Resources */,
 			);
@@ -519,10 +519,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt App/Preview Content\"";
-				DEVELOPMENT_TEAM = H3U8XDXNHS;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = H3U8XDXNHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jack-Schmitt-App-Info.plist";
@@ -542,6 +544,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "RJW's Provisioning Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -553,10 +557,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt App/Preview Content\"";
-				DEVELOPMENT_TEAM = H3U8XDXNHS;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = H3U8XDXNHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jack-Schmitt-App-Info.plist";
@@ -576,6 +582,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "RJW's Provisioning Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
