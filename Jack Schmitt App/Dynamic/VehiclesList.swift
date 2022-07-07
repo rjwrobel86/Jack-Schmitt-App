@@ -1,8 +1,9 @@
 //
 //  VehiclesList.swift
-//  JSCWR
+//  Jack Schmitt App
 //
-//  Created by Robert Wrobel on 5/25/22.
+//  Created by Dev on 6/23/22.
+//  Copyright © 2022 RJW. All rights reserved.
 //
 
 import SwiftUI
@@ -14,7 +15,7 @@ struct VehiclesList: View {
             NavigationLink {
                 VDPMain(vehicle: vehicle)
             } label: {
-                VehiclesRow(vehicle: vehicle)
+                VehicleRow(vehicle: vehicle)
             }
         }.navigationTitle("On Sale")
             .refreshable {
@@ -27,3 +28,4 @@ struct VehiclesList_Previews: PreviewProvider {
         VehiclesList()
     }
 }
+

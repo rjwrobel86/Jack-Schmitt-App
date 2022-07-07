@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct VDPMain: View {
+    @State private var searchText = ""
+
     var vehicle: Vehicle
     
     var body: some View {

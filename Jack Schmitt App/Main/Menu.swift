@@ -12,7 +12,7 @@ struct Menu: View {
             
         NavigationView {
             List {
-            NavigationLink(destination: VehiclesList()) { Text("Browse Vehicles") }
+            NavigationLink(destination: ModelsList()) { Text("Browse Vehicles") }
                 NavigationLink(destination: Specials()) { Text("Weekly Specials") }
                 NavigationLink(destination: ModelsList()) { Text("Model Research") }
                 NavigationLink(destination: HandD()) { Text("Hours and Directions") }

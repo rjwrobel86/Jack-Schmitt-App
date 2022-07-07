@@ -7,10 +7,15 @@
 
 import SwiftUI
 import Firebase
+import FirebaseAnalytics
 
 @main
 struct Jack_Schmitt_AppApp: App {
 
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

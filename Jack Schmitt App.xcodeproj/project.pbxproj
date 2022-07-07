@@ -12,9 +12,7 @@
 		57476BC52848661700878F07 /* models.json in Resources */ = {isa = PBXBuildFile; fileRef = 57476BC42848661700878F07 /* models.json */; };
 		57476BC7284866EC00878F07 /* ModelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57476BC6284866EC00878F07 /* ModelModel.swift */; };
 		57476BD428487C9200878F07 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57476BD328487C9200878F07 /* MapView.swift */; };
-		5757B1CD2847CD9200196CF8 /* VDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1CC2847CD9200196CF8 /* VDPMain.swift */; };
-		5757B1D02847CE6000196CF8 /* VehicleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1CE2847CE6000196CF8 /* VehicleRow.swift */; };
-		5757B1D12847CE6000196CF8 /* VehiclesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1CF2847CE6000196CF8 /* VehiclesList.swift */; };
+		5757B1CD2847CD9200196CF8 /* Vehicles in Sources */ = {isa = PBXBuildFile; fileRef = 5757B1CC2847CD9200196CF8 /* Vehicles */; };
 		578141072840277900D55665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578141062840277900D55665 /* Assets.xcassets */; };
 		5781410A2840277900D55665 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578141092840277900D55665 /* Preview Assets.xcassets */; };
 		57814111284027AC00D55665 /* HandD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814110284027AC00D55665 /* HandD.swift */; };
@@ -22,7 +20,6 @@
 		57814115284027BE00D55665 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814114284027BE00D55665 /* Directions.swift */; };
 		57814118284027DF00D55665 /* Specials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814117284027DF00D55665 /* Specials.swift */; };
 		5781411A284027E200D55665 /* ComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814119284027E200D55665 /* ComingSoon.swift */; };
-		5781411C284027EA00D55665 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781411B284027EA00D55665 /* ContactUs.swift */; };
 		57814120284029B200D55665 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5781411F284029B200D55665 /* DataModel.swift */; };
 		57814122284029BD00D55665 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57814121284029BD00D55665 /* VehicleModel.swift */; };
 		5781412C28402AE200D55665 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5781412B28402AE200D55665 /* Launch Screen.storyboard */; };
@@ -33,24 +30,6 @@
 		578315C1284990B3002518CC /* MDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578315C0284990B3002518CC /* MDPMain.swift */; };
 		57DB3ACB2847F4DB00B9A0F7 /* vehicles.json in Resources */ = {isa = PBXBuildFile; fileRef = 57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */; };
 		A91267F4285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist */; };
-		A9416180285DD7C80051A71E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A941617F285DD7C80051A71E /* FirebaseAnalytics */; };
-		A9416182285DD7C80051A71E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A9416181285DD7C80051A71E /* FirebaseAnalyticsOnDeviceConversion */; };
-		A9416184285DD7C80051A71E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9416183285DD7C80051A71E /* FirebaseAnalyticsSwift */; };
-		A9416186285DD7C80051A71E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A9416185285DD7C80051A71E /* FirebaseAuth */; };
-		A9416188285DD7C80051A71E /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A9416187285DD7C80051A71E /* FirebaseAuthCombine-Community */; };
-		A941618A285DD7C80051A71E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A9416189285DD7C80051A71E /* FirebaseDatabase */; };
-		A941618C285DD7C80051A71E /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A941618B285DD7C80051A71E /* FirebaseDatabaseSwift */; };
-		A941618E285DD7C80051A71E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A941618D285DD7C80051A71E /* FirebaseFirestore */; };
-		A9416190285DD7C80051A71E /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A941618F285DD7C80051A71E /* FirebaseFirestoreCombine-Community */; };
-		A9416192285DD7C80051A71E /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A9416191285DD7C80051A71E /* FirebaseFirestoreSwift */; };
-		A9416194285DD7C80051A71E /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = A9416193285DD7C80051A71E /* FirebaseInstallations */; };
-		A9416196285DD7C80051A71E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A9416195285DD7C80051A71E /* FirebaseStorage */; };
-		A9416198285DD7C80051A71E /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A9416197285DD7C80051A71E /* FirebaseStorageCombine-Community */; };
-		A941619B285E9BDF0051A71E /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = A941619A285E9BDF0051A71E /* FacebookAEM */; };
-		A941619D285E9BDF0051A71E /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = A941619C285E9BDF0051A71E /* FacebookBasics */; };
-		A941619F285E9BDF0051A71E /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = A941619E285E9BDF0051A71E /* FacebookCore */; };
-		A94161A1285E9BDF0051A71E /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = A94161A0285E9BDF0051A71E /* FacebookLogin */; };
-		A94161A3285E9BDF0051A71E /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = A94161A2285E9BDF0051A71E /* FacebookShare */; };
 		A94161AB285E9CB40051A71E /* Jack_Schmitt_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94161AA285E9CB40051A71E /* Jack_Schmitt_AppApp.swift */; };
 		A94161AD285E9D6E0051A71E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94161AC285E9D6E0051A71E /* ContentView.swift */; };
 		A94161AF285E9DC10051A71E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A94161AE285E9DC10051A71E /* GoogleService-Info.plist */; };
@@ -59,6 +38,14 @@
 		A94B0E28284A72420031714C /* SilveradoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B0E27284A72420031714C /* SilveradoLink.swift */; };
 		A94B0E2A284A899D0031714C /* ImageGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B0E29284A899D0031714C /* ImageGrid.swift */; };
 		A94B0E2C284A8AC50031714C /* VehPicArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94B0E2B284A8AC50031714C /* VehPicArrays.swift */; };
+		D70931FB286A41C300DFC56F /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70931FA286A41C300DFC56F /* VehicleList.swift */; };
+		D70931FD286A41D700DFC56F /* VDPMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70931FC286A41D700DFC56F /* VDPMain.swift */; };
+		D70931FF286A41DA00DFC56F /* VehicleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70931FE286A41DA00DFC56F /* VehicleRow.swift */; };
+		D788D97028777258002406B9 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D788D96F28777258002406B9 /* ContactUs.swift */; };
+		D7D352602872443900EC1306 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D7D3525F2872443900EC1306 /* FirebaseAnalytics */; };
+		D7D352622872443D00EC1306 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7D352612872443D00EC1306 /* FirebaseAnalyticsSwift */; };
+		D7D352642872444300EC1306 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = D7D352632872444300EC1306 /* FacebookCore */; };
+		D7D352662872444900EC1306 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = D7D352652872444900EC1306 /* FacebookBasics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,24 +54,21 @@
 		57476BC42848661700878F07 /* models.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = models.json; sourceTree = "<group>"; };
 		57476BC6284866EC00878F07 /* ModelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelModel.swift; sourceTree = "<group>"; };
 		57476BD328487C9200878F07 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		5757B1CC2847CD9200196CF8 /* VDPMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDPMain.swift; path = "/Users/bobwrobel/Pictures/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VDPMain.swift"; sourceTree = "<absolute>"; };
-		5757B1CE2847CE6000196CF8 /* VehicleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehicleRow.swift; path = "/Users/bobwrobel/Pictures/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VehicleRow.swift"; sourceTree = "<absolute>"; };
-		5757B1CF2847CE6000196CF8 /* VehiclesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VehiclesList.swift; path = "/Users/bobwrobel/Pictures/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles/VehiclesList.swift"; sourceTree = "<absolute>"; };
+		5757B1CC2847CD9200196CF8 /* Vehicles */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = Vehicles; path = "/Users/dev/Code/Apps/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles"; sourceTree = "<absolute>"; };
 		578140FF2840277800D55665 /* Jack Schmitt App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Schmitt App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578141062840277900D55665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578141092840277900D55665 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57814110284027AC00D55665 /* HandD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandD.swift; sourceTree = "<group>"; };
 		57814112284027BA00D55665 /* Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hours.swift; sourceTree = "<group>"; };
 		57814114284027BE00D55665 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
-		57814117284027DF00D55665 /* Specials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Specials.swift; path = ../Specials.swift; sourceTree = "<group>"; };
+		57814117284027DF00D55665 /* Specials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specials.swift; sourceTree = "<group>"; };
 		57814119284027E200D55665 /* ComingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoon.swift; sourceTree = "<group>"; };
-		5781411B284027EA00D55665 /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
 		5781411F284029B200D55665 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		57814121284029BD00D55665 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
 		5781412B28402AE200D55665 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		5781413028402C0200D55665 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "/Users/bobwrobel/Downloads/Jack-Schmitt-App/Jack Schmitt App/Main/Menu.swift"; sourceTree = "<absolute>"; };
+		5781413028402C0200D55665 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "/Users/dev/Code/Apps/Jack-Schmitt-App/Jack Schmitt App/Main/Menu.swift"; sourceTree = "<absolute>"; };
 		578315BA28498DE4002518CC /* DataModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel2.swift; sourceTree = "<group>"; };
-		578315BC28498E6E002518CC /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelsRow.swift; path = "/Users/bobwrobel/Pictures/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Models/ModelsRow.swift"; sourceTree = "<absolute>"; };
+		578315BC28498E6E002518CC /* ModelsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelsRow.swift; path = "/Users/dev/Code/Apps/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Models/ModelsRow.swift"; sourceTree = "<absolute>"; };
 		578315BE2849906A002518CC /* ModelsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsList.swift; sourceTree = "<group>"; };
 		578315C0284990B3002518CC /* MDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDPMain.swift; sourceTree = "<group>"; };
 		57DB3ACA2847F4DB00B9A0F7 /* vehicles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vehicles.json; sourceTree = "<group>"; };
@@ -97,6 +81,10 @@
 		A94B0E27284A72420031714C /* SilveradoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilveradoLink.swift; sourceTree = "<group>"; };
 		A94B0E29284A899D0031714C /* ImageGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGrid.swift; sourceTree = "<group>"; };
 		A94B0E2B284A8AC50031714C /* VehPicArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehPicArrays.swift; sourceTree = "<group>"; };
+		D70931FA286A41C300DFC56F /* VehicleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VehicleList.swift; path = Vehicles/VehicleList.swift; sourceTree = "<group>"; };
+		D70931FC286A41D700DFC56F /* VDPMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VDPMain.swift; path = Vehicles/VDPMain.swift; sourceTree = "<group>"; };
+		D70931FE286A41DA00DFC56F /* VehicleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VehicleRow.swift; path = Vehicles/VehicleRow.swift; sourceTree = "<group>"; };
+		D788D96F28777258002406B9 /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,24 +92,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9416194285DD7C80051A71E /* FirebaseInstallations in Frameworks */,
-				A94161A1285E9BDF0051A71E /* FacebookLogin in Frameworks */,
-				A94161A3285E9BDF0051A71E /* FacebookShare in Frameworks */,
-				A941618C285DD7C80051A71E /* FirebaseDatabaseSwift in Frameworks */,
-				A941618A285DD7C80051A71E /* FirebaseDatabase in Frameworks */,
-				A9416198285DD7C80051A71E /* FirebaseStorageCombine-Community in Frameworks */,
-				A9416184285DD7C80051A71E /* FirebaseAnalyticsSwift in Frameworks */,
-				A9416190285DD7C80051A71E /* FirebaseFirestoreCombine-Community in Frameworks */,
-				A9416196285DD7C80051A71E /* FirebaseStorage in Frameworks */,
-				A9416180285DD7C80051A71E /* FirebaseAnalytics in Frameworks */,
-				A941619B285E9BDF0051A71E /* FacebookAEM in Frameworks */,
-				A9416192285DD7C80051A71E /* FirebaseFirestoreSwift in Frameworks */,
-				A9416182285DD7C80051A71E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				A941618E285DD7C80051A71E /* FirebaseFirestore in Frameworks */,
-				A941619D285E9BDF0051A71E /* FacebookBasics in Frameworks */,
-				A9416186285DD7C80051A71E /* FirebaseAuth in Frameworks */,
-				A9416188285DD7C80051A71E /* FirebaseAuthCombine-Community in Frameworks */,
-				A941619F285E9BDF0051A71E /* FacebookCore in Frameworks */,
+				D7D352622872443D00EC1306 /* FirebaseAnalyticsSwift in Frameworks */,
+				D7D352662872444900EC1306 /* FacebookBasics in Frameworks */,
+				D7D352642872444300EC1306 /* FacebookCore in Frameworks */,
+				D7D352602872443900EC1306 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,17 +110,7 @@
 				578315C0284990B3002518CC /* MDPMain.swift */,
 			);
 			name = ModelGroup;
-			path = ../Models;
-			sourceTree = "<group>";
-		};
-		5767FF66284AD37600D32B0E /* VehicleGroup */ = {
-			isa = PBXGroup;
-			children = (
-				5757B1CC2847CD9200196CF8 /* VDPMain.swift */,
-				5757B1CF2847CE6000196CF8 /* VehiclesList.swift */,
-				5757B1CE2847CE6000196CF8 /* VehicleRow.swift */,
-			);
-			name = VehicleGroup;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		5769F159284880E9007E54C8 /* Links */ = {
@@ -165,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				57814119284027E200D55665 /* ComingSoon.swift */,
-				5781411B284027EA00D55665 /* ContactUs.swift */,
+				D788D96F28777258002406B9 /* ContactUs.swift */,
 			);
 			path = Tertiary;
 			sourceTree = "<group>";
@@ -175,6 +139,7 @@
 			children = (
 				578141012840277800D55665 /* Jack Schmitt App */,
 				578141002840277800D55665 /* Products */,
+				D7D3525E2872443900EC1306 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,9 +156,9 @@
 			children = (
 				A94161AA285E9CB40051A71E /* Jack_Schmitt_AppApp.swift */,
 				A94161AC285E9D6E0051A71E /* ContentView.swift */,
+				A94161AE285E9DC10051A71E /* GoogleService-Info.plist */,
 				A91267F3285EAB0B00CABEDF /* Jack-Schmitt-App-Info2.plist */,
 				5781412B28402AE200D55665 /* Launch Screen.storyboard */,
-				A94161AE285E9DC10051A71E /* GoogleService-Info.plist */,
 				5781412F28402BE800D55665 /* Main */,
 				5781411D2840280C00D55665 /* Static */,
 				5781412E28402BD800D55665 /* Dynamic */,
@@ -251,12 +216,15 @@
 		5781412E28402BD800D55665 /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
-				5767FF66284AD37600D32B0E /* VehicleGroup */,
+				5757B1CC2847CD9200196CF8 /* Vehicles */,
 				5767FF65284AD35300D32B0E /* ModelGroup */,
 				57814117284027DF00D55665 /* Specials.swift */,
+				D70931FE286A41DA00DFC56F /* VehicleRow.swift */,
+				D70931FC286A41D700DFC56F /* VDPMain.swift */,
+				D70931FA286A41C300DFC56F /* VehicleList.swift */,
 			);
 			name = Dynamic;
-			path = "/Users/bobwrobel/Pictures/Jack-Schmitt-App/Jack Schmitt App/Dynamic/Vehicles";
+			path = "/Users/dev/Code/Apps/Jack-Schmitt-App/Jack Schmitt App/Dynamic";
 			sourceTree = "<absolute>";
 		};
 		5781412F28402BE800D55665 /* Main */ = {
@@ -265,6 +233,13 @@
 				5781413028402C0200D55665 /* Menu.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		D7D3525E2872443900EC1306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,24 +259,10 @@
 			);
 			name = "Jack Schmitt App";
 			packageProductDependencies = (
-				A941617F285DD7C80051A71E /* FirebaseAnalytics */,
-				A9416181285DD7C80051A71E /* FirebaseAnalyticsOnDeviceConversion */,
-				A9416183285DD7C80051A71E /* FirebaseAnalyticsSwift */,
-				A9416185285DD7C80051A71E /* FirebaseAuth */,
-				A9416187285DD7C80051A71E /* FirebaseAuthCombine-Community */,
-				A9416189285DD7C80051A71E /* FirebaseDatabase */,
-				A941618B285DD7C80051A71E /* FirebaseDatabaseSwift */,
-				A941618D285DD7C80051A71E /* FirebaseFirestore */,
-				A941618F285DD7C80051A71E /* FirebaseFirestoreCombine-Community */,
-				A9416191285DD7C80051A71E /* FirebaseFirestoreSwift */,
-				A9416193285DD7C80051A71E /* FirebaseInstallations */,
-				A9416195285DD7C80051A71E /* FirebaseStorage */,
-				A9416197285DD7C80051A71E /* FirebaseStorageCombine-Community */,
-				A941619A285E9BDF0051A71E /* FacebookAEM */,
-				A941619C285E9BDF0051A71E /* FacebookBasics */,
-				A941619E285E9BDF0051A71E /* FacebookCore */,
-				A94161A0285E9BDF0051A71E /* FacebookLogin */,
-				A94161A2285E9BDF0051A71E /* FacebookShare */,
+				D7D3525F2872443900EC1306 /* FirebaseAnalytics */,
+				D7D352612872443D00EC1306 /* FirebaseAnalyticsSwift */,
+				D7D352632872444300EC1306 /* FacebookCore */,
+				D7D352652872444900EC1306 /* FacebookBasics */,
 			);
 			productName = "Jack Schmitt App";
 			productReference = 578140FF2840277800D55665 /* Jack Schmitt App.app */;
@@ -370,18 +331,19 @@
 				57476BD428487C9200878F07 /* MapView.swift in Sources */,
 				A94161AB285E9CB40051A71E /* Jack_Schmitt_AppApp.swift in Sources */,
 				A94161AD285E9D6E0051A71E /* ContentView.swift in Sources */,
+				D70931FF286A41DA00DFC56F /* VehicleRow.swift in Sources */,
 				5781411A284027E200D55665 /* ComingSoon.swift in Sources */,
 				578315C1284990B3002518CC /* MDPMain.swift in Sources */,
 				5781413128402C0200D55665 /* Menu.swift in Sources */,
 				A94B0E24284A710D0031714C /* ReviewLink.swift in Sources */,
+				D788D97028777258002406B9 /* ContactUs.swift in Sources */,
 				57814111284027AC00D55665 /* HandD.swift in Sources */,
 				578315BD28498E6E002518CC /* ModelsRow.swift in Sources */,
+				D70931FD286A41D700DFC56F /* VDPMain.swift in Sources */,
 				A94B0E2A284A899D0031714C /* ImageGrid.swift in Sources */,
 				57814118284027DF00D55665 /* Specials.swift in Sources */,
-				5757B1D12847CE6000196CF8 /* VehiclesList.swift in Sources */,
 				A94B0E26284A71DE0031714C /* EquinoxLink.swift in Sources */,
 				57814113284027BA00D55665 /* Hours.swift in Sources */,
-				5757B1D02847CE6000196CF8 /* VehicleRow.swift in Sources */,
 				578315BB28498DE4002518CC /* DataModel2.swift in Sources */,
 				A94B0E2C284A8AC50031714C /* VehPicArrays.swift in Sources */,
 				57476BC7284866EC00878F07 /* ModelModel.swift in Sources */,
@@ -389,11 +351,11 @@
 				57814122284029BD00D55665 /* VehicleModel.swift in Sources */,
 				578315BF2849906A002518CC /* ModelsList.swift in Sources */,
 				571C625E2846168B00A975E8 /* FinanceLink.swift in Sources */,
-				5781411C284027EA00D55665 /* ContactUs.swift in Sources */,
+				D70931FB286A41C300DFC56F /* VehicleList.swift in Sources */,
 				57814115284027BE00D55665 /* Directions.swift in Sources */,
 				57814120284029B200D55665 /* DataModel.swift in Sources */,
 				A94B0E28284A72420031714C /* SilveradoLink.swift in Sources */,
-				5757B1CD2847CD9200196CF8 /* VDPMain.swift in Sources */,
+				5757B1CD2847CD9200196CF8 /* Vehicles in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,16 +481,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt App/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = H3U8XDXNHS;
+				DEVELOPMENT_TEAM = H3U8XDXNHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jack-Schmitt-App-Info.plist";
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -545,7 +506,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "RJW's Provisioning Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -557,16 +517,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Jack Schmitt App/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = H3U8XDXNHS;
+				DEVELOPMENT_TEAM = H3U8XDXNHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jack-Schmitt-App-Info.plist";
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,7 +542,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "BobsNotSoft.Jack-Schmitt-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "RJW's Provisioning Profile";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -633,95 +591,25 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A941617F285DD7C80051A71E /* FirebaseAnalytics */ = {
+		D7D3525F2872443900EC1306 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
 		};
-		A9416181285DD7C80051A71E /* FirebaseAnalyticsOnDeviceConversion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsOnDeviceConversion;
-		};
-		A9416183285DD7C80051A71E /* FirebaseAnalyticsSwift */ = {
+		D7D352612872443D00EC1306 /* FirebaseAnalyticsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalyticsSwift;
 		};
-		A9416185285DD7C80051A71E /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		A9416187285DD7C80051A71E /* FirebaseAuthCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAuthCombine-Community";
-		};
-		A9416189285DD7C80051A71E /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		A941618B285DD7C80051A71E /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		A941618D285DD7C80051A71E /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		A941618F285DD7C80051A71E /* FirebaseFirestoreCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseFirestoreCombine-Community";
-		};
-		A9416191285DD7C80051A71E /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-		A9416193285DD7C80051A71E /* FirebaseInstallations */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseInstallations;
-		};
-		A9416195285DD7C80051A71E /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		A9416197285DD7C80051A71E /* FirebaseStorageCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A941617E285DD7C80051A71E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseStorageCombine-Community";
-		};
-		A941619A285E9BDF0051A71E /* FacebookAEM */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9416199285E9BDF0051A71E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookAEM;
-		};
-		A941619C285E9BDF0051A71E /* FacebookBasics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9416199285E9BDF0051A71E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookBasics;
-		};
-		A941619E285E9BDF0051A71E /* FacebookCore */ = {
+		D7D352632872444300EC1306 /* FacebookCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A9416199285E9BDF0051A71E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
 		};
-		A94161A0285E9BDF0051A71E /* FacebookLogin */ = {
+		D7D352652872444900EC1306 /* FacebookBasics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A9416199285E9BDF0051A71E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookLogin;
-		};
-		A94161A2285E9BDF0051A71E /* FacebookShare */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A9416199285E9BDF0051A71E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookShare;
+			productName = FacebookBasics;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
